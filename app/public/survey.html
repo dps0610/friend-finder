@@ -1,12 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
     <title>Friend Finder</title>
 </head>
+
 <body>
-    
+    <h2 class="text-center mb-3">The Only Way to Determine Friendship</h2>
+
+    <!--Get Name field-->
+    <div class="container mb-3">
+        <p class="font-weight-bold">1. Patrick Swayze's best movies is Roadhouse.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q1" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q1" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q1" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q1" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q1" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">2. If Patrick Swayze were still alive, he and I would be really good friends, right?
+        </p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q2" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q2" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q2" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q2" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q2" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">3. Dirty Dancing is ok, but Ghost is where the true romance is at.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q3" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q3" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q3" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q3" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q3" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">4. Donny Darko besmirches Patrick Swayse's good name, therefore it does not exist.
+        </p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q4" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q4" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q4" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q4" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q4" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">5. Demi Moore and Jennifer Grey are two of the luckiest ladies every.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q5" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q5" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q5" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q5" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q5" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">6. If I made Swayze Crazy shirts, you would buy one.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q6" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q6" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q6" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q6" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q6" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">7. You would also wear it. Like, in public.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q7" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q7" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q7" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q7" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q7" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+        <p class="font-weight-bold">8. Red Dawn is documentary about how Patrick Swayze fought off waves of Russians,
+            and saved America.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q8" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q8" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q8" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q8" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q8" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+        <br>
+        <p class="font-weight-bold">9. Bohdisattva is the only acceptable name for your child.</p>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="q9" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q9" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q9" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q9" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q9" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+
+        <p class="font-weight-bold">10. I ran out of steam with this joke at about question 3.</p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q10" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1 (Not true at all)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q10" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q10" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q10" id="inlineRadio3" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="q10" id="inlineRadio3" value="5">
+            <label class="form-check-label" for="inlineRadio3">5 (Super true)</label>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg mt-3 mb-3 text-center" data-toggle="modal"
+                data-target="#exampleModal" id="submit" role="button">Submit</button>
+        </div>
+
+    </div>
+    <!-- modal stuff -->
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your Best Friend Is:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="bestFriendName"></h2>
+                    <h5 id="bestFriendBlurb"></h5>
+                    <img id="bestFriendPic" style="height:150px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+
+        //calculating the user score
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+        var userScore = {
+            scores: [],
+        };
+
+        $("#submit").on("click", function () {
+
+            for (let i = 1; i < 11; i++) {
+                var answer = $(`input[name=q${i}]:checked`).val()
+                userScore.scores.push(answer)
+
+                // console.log(i)
+                // console.log($('input[name=q1]:checked').val())
+                // var qVal =  parseInt($(`input[name=q${i}]:checked`).val())
+
+                console.log("answer: ", answer)
+            }
+            console.log("answer array: ", userScore.scores);
+
+            $.post("/api/friends", userScore, function (data) {
+
+                console.log(data)
+                // alert(`"Your Best Friend is: ${data.name} `)
+
+                $("#bestFriendName").text(data.name);
+                $("#bestFriendPic").attr("src", data.img);
+                $("#bestFriendBlurb").text(data.blurb);
+            })
+        });
+
+    </script>
+
 </body>
+
 </html>
