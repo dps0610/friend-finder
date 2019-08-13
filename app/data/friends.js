@@ -1,7 +1,7 @@
 var friends = [
     {
         name: "Jimothy",
-        img: "app/images/jim.jpg",
+        img: "/images/jim.jpg",
         blurb: "You got Jim. He's the worst, but a friend's a friend, I guess.",
         scores: [
             1,
@@ -19,7 +19,7 @@ var friends = [
     },
     {
         name: "Pamantha",
-        img: "app/images/pam",
+        img: "/images/pam",
         blurb: "Solid friend. If you're into that kind of thing",
         scores: [
             4,
@@ -53,7 +53,7 @@ var friends = [
     },
     {
         name: "Patrick",
-        img: "app/images/swayze.jpg",
+        img: "/images/swayze.jpg",
         blurb: "OMG! He's here in spirit! Dibs.",
         scores: [
             5,
@@ -70,7 +70,7 @@ var friends = [
     },
     {
         name: "The Narc",
-        img: "app/images/keanu.jpg",
+        img: "/images/keanu.jpg",
         blurb:"Cooler than Jim, but only just barely.",
         scores: [
             3,

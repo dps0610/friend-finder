@@ -39,6 +39,7 @@ module.exports = function(app){
             console.log("current friend: " + currentFriend.name + " total diff: ",totalDifference)
         }
         console.log("This is our best friend: "+ bestFriend.name + "Score: " + bestFriend.scoreDiff)
+        console.log(bestFriend)
         res.json(bestFriend)
     })
 }

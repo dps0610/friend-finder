@@ -6,6 +6,7 @@ var PORT = process.env.PORT || 8080;
 // var PORT = process.env.PORT || 8080;
 
 
+app.use(express.static("./app/public"));
 
 //so your stuff can interpret the data
 app.use(express.urlencoded({ extended: true }));
